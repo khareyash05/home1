@@ -107,8 +107,8 @@ const skills = {
     { name: "NodeJs.", value: 70 },
     { name: "ReactJs.", value: 65 },
     { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 75 },
-    { name: "C/C++", value: 70 },
+    { name: "C/C++", value: 75 },
+    { name: "Java", value: 70 },
     { name: "MongoDB", value: 80 },
   ],
   softSkills: [
