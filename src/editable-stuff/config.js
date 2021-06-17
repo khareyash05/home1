@@ -42,7 +42,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Yash Khare. I’m a first year student pursuing bachelors in Computer Science and Engineering at AKGEC,Ghaziabad. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time, I love to play tennis and listen to rock music to cheer me up for the next task.If you dont find me at Home , you can find me at the nearest planetariums(I love to observe and talk about the universe).Altogether, I would sum up myself as an enthusiast and a hardworker; who would do anything to complete the task. ",
-  resume: require("../editable-stuff/resume1.pdf"),
+  resume: require("../editable-stuff/resume2.pdf"),
 };
 
 // If you want to display specfic projects, add the repository names,
