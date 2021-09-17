@@ -17,11 +17,10 @@ const MainBody = React.forwardRef(
       >
         <div id="stars"></div>
         <Container className="text-center">
-          <h1 ref={ref} className="display-1">
+          <h1 ref={ref} className="display-1" style={{color:"black"}}>
             {title}
           </h1>
-          <Typist className="lead typist" cursor={{ show: false }}>
-            {" "}
+          <Typist style={{color:"black"}}className="lead typist" cursor={{ show: false }}>
             {message}
           </Typist>
           <div className="p-5">
@@ -42,6 +41,7 @@ const MainBody = React.forwardRef(
             href="#aboutme"
             role="button"
             aria-label="Learn more about me"
+            style={{borderColor:"black",color:"black"}}
           >
             More about me
           </a>

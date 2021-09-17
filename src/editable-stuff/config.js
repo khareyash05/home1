@@ -10,7 +10,7 @@ const mainBody = {
   firstName: "Yash",
   middleName: "",
   lastName: "Khare",
-  message: " Passionate about changing the world with technology. ",
+  message: " Living life never before ",
   icons: [
     {
       image: "fa-github",
@@ -41,8 +41,8 @@ const about = {
   imageLink: require("../editable-stuff/me.jpg"),
   imageSize: 375,
   message:
-    "My name is Yash Khare. I’m a first year student pursuing bachelors in Computer Science and Engineering at AKGEC,Ghaziabad. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time, I love to play tennis and listen to rock music to cheer me up for the next task.If you dont find me at Home , you can find me at the nearest planetariums(I love to observe and talk about the universe).Altogether, I would sum up myself as an enthusiast and a hardworker; who would do anything to complete the task. ",
-  resume: require("../editable-stuff/resume3.pdf"),
+    "My name is Yash Khare. I’m a student pursuing bachelors in Computer Science and Engineering at AKGEC,Ghaziabad. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time, I love to play tennis and listen to rock music to cheer me up for the next task.If you dont find me at Home , you can find me at the nearest planetariums(I love to observe and talk about the universe).Altogether, I would sum up myself as an enthusiast and a hardworker; who would do anything to complete the task. ",
+  resume: require("../editable-stuff/resume4.pdf"),
 };
 
 // If you want to display specfic projects, add the repository names,
@@ -119,10 +119,25 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Open Source Contributor',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'Feb 2021 - June 2021',
-    }
+      role: 'Mentor at Open Source at GWOC',// Here Add Company Name
+      companylogo: require('../assets/img/gwoc.png'),
+      date: 'Sept 2021 - present',
+    },
+    {
+      role: 'Full Stack Web Development Intern at Procial',// Here Add Company Name
+      companylogo: require('../assets/img/procial.jpeg'),
+      date: 'July 2021 - Sept 2021',
+    },
+    {
+      role: 'Mentor at Open Source at Lets Grow More',// Here Add Company Name
+      companylogo: require('../assets/img/lgm.jpeg'),
+      date: 'May 2021 - July 2021',
+    },
+    {
+      role: 'Top Open Source Contributor at GirlScript Summer of Code',// Here Add Company Name
+      companylogo: require('../assets/img/girl.jpeg'),
+      date: 'March 2021 - June 2021',
+    },
   ]
 }
 
